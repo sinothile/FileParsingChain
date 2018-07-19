@@ -52,7 +52,7 @@ namespace FileParsingChainTests
             //Act
             StringBuilder fakeoutput = new StringBuilder();
             Console.SetOut(new StringWriter(fakeoutput));
-            csv.Parse(fileName);
+            text.Parse(fileName);
 
             //Assert
             var expected = "File Parsed with Csv Parser";
@@ -77,7 +77,7 @@ namespace FileParsingChainTests
             //Act
             StringBuilder fakeoutput = new StringBuilder();
             Console.SetOut(new StringWriter(fakeoutput));
-            json.Parse(fileName);
+            text.Parse(fileName);
 
             //Assert
             var expected = "File Parsed with Json Parser";
@@ -102,7 +102,7 @@ namespace FileParsingChainTests
             //Act
             StringBuilder fakeoutput = new StringBuilder();
             Console.SetOut(new StringWriter(fakeoutput));
-            xml.Parse(fileName);
+            text.Parse(fileName);
 
             //Assert
             var expected = "File Parsed with XML Parser";
@@ -127,7 +127,7 @@ namespace FileParsingChainTests
             //Act
             StringBuilder fakeoutput = new StringBuilder();
             Console.SetOut(new StringWriter(fakeoutput));
-            xml.Parse(fileName);
+            text.Parse(fileName);
 
             //Assert
             var expected = "Only provides xml,txt,csv and json files";
