@@ -1,0 +1,6 @@
+C:\git\FileParsingChain\FileParsingChain\bin\Debug\FileParsingChain.dll
+C:\git\FileParsingChain\FileParsingChain\bin\Debug\FileParsingChain.pdb
+C:\git\FileParsingChain\FileParsingChain\obj\Debug\FileParsingChain.csprojResolveAssemblyReference.cache
+C:\git\FileParsingChain\FileParsingChain\obj\Debug\FileParsingChain.csproj.CoreCompileInputs.cache
+C:\git\FileParsingChain\FileParsingChain\obj\Debug\FileParsingChain.dll
+C:\git\FileParsingChain\FileParsingChain\obj\Debug\FileParsingChain.pdb
